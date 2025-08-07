@@ -3,8 +3,10 @@ class Animal {
 	constructor(species){
 		this.species =species;
 	}
-	
 
+	set species(value){
+		this.species = value;
+	}
 	get species(){
 		return this.species;
 	}
